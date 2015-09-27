@@ -1,7 +1,8 @@
 [
   {
     "repository": "android_kernel_htc_msm8974",
-    "target_path": "kernel/htc/msm8974"
+    "target_path": "kernel/htc/msm8974",
+    "remote": "cd"
   },
   {
     "repository": "android_device_qcom_common",
