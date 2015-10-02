@@ -50,8 +50,8 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_SEPARATED_DT := true
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x02008000 --tags_offset 0x01e00000
 TARGET_KERNEL_SOURCE := kernel/htc/msm8974
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-candy-linux-gnueabi/bin
-KERNEL_TOOLCHAIN_PREFIX := arm-CANDY-linux-gnueabi-
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/linaro-lto/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
 # Rom Optimization
 USE_GRAPHITE := true
